@@ -1,0 +1,401 @@
+/***** BASE CSS *****/
+
+.span12 {
+    align-content: center;
+}
+
+
+#divSiteTitle {
+    text-decoration: none;
+}
+
+#divTagLine {
+    text-decoration: none;
+}
+
+/* Headline Text */
+
+#divHeaderLine1 {
+    display: inline-block !important
+}
+
+#divHeaderLine2 {
+    display: inline-block !important
+}
+
+/* Headings */
+
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.5 !important
+}
+
+/* Contact */
+
+ul#contact-info .icon {
+    font-size: 20px;
+    float: left;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+ul#contact-info .field {
+    font-weight: bold;
+}
+
+ul#contact-info {
+    list-style: none;
+}
+
+[class*="social foundicon-"]:before {
+    font-family: "SocialFoundicons";
+}
+
+[class*="general foundicon-"]:before {
+    font-family: "GeneralFoundicons";
+}
+
+/* Header Area */
+
+#decorative1 {
+    margin-top: -2px;
+    padding-top: 2px;
+}
+
+/* Menu Centered */
+
+.centered_menu {
+    text-align: center
+}
+
+.centered_menu>div {
+    display: inline-block;
+}
+
+.centered_menu div {
+    text-align: left
+}
+
+/* Footer elements */
+
+.social_bookmarks a {
+    font-size: smaller !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.copyright {
+    font-size: smaller;
+    letter-spacing: 1px;
+}
+
+#divHeaderLine1,
+#divHeaderLine2,
+#divHeaderLine3 {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    text-align: inherit !important;
+}
+
+#decorative2 {
+    /*opacity:0.95;*/
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.03);
+    -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.03);
+}
+
+.divPanel {}
+
+.divPanel.notop {
+    padding-top: 0px
+}
+
+.divPanel.nobottom {
+    padding-bottom: 0px
+}
+
+
+/***** BOOTSTRAP CSS BASE OVERRIDE *****/
+
+.navbar .nav-pills>li>a {
+    text-shadow: none;
+    font-weight: normal;
+}
+
+
+body {
+    background-image: none;
+    background-position: initial initial;
+    background-repeat: initial initial;
+}
+
+#divLogo {
+    margin-top: 9px;
+    margin-bottom: 0px;
+    margin-left: -3px;
+}
+
+#divSiteTitle {
+    font-family: 'Century Gothic', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-shadow: none;
+    line-height: 42px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#divTagLine {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.page-content {
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sidebox {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 3px;
+    box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 3px;
+    background-color: rgb(250, 250, 250);
+    color: rgb(51, 51, 51);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 18px;
+    margin-top: 28px;
+}
+
+.sidebox-title {
+    line-height: 40px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+#decorative1 {
+    position: relative;
+    background-color: rgb(240, 240, 240);
+    background-image: url(../images/wallNew.jpeg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+    -webkit-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.7);
+}
+
+#decorative2 {
+    background-color: rgb(64, 172, 98);
+    height: 85px;
+}
+
+#divFooter {
+    font-family: 'Open Sans', sans-serif;
+    background-color: transparent;
+    color: rgb(41, 41, 41);
+    padding-top: 32px;
+    line-height: 22px;
+    font-size: 12px;
+    text-transform: none;
+    background-image: url(../images/chruch.png);
+    background-repeat: repeat repeat;
+}
+
+#divFooter a {
+    color: rgb(54, 150, 86);
+}
+
+#divFooter h3 {
+    color: rgb(41, 41, 41);
+}
+
+
+#divHeaderLine1 {
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    margin-top: 0px;
+    color: rgb(51, 51, 51);
+    font-size: 50px;
+    line-height: 64px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: none;
+    text-shadow: rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(255, 255, 255, 0.298039) 0px -5px 35px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    padding: 3px 10px;
+}
+
+#divHeaderLine2 {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-top: 11px;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    padding: 3px 10px;
+    background-position: initial initial;
+    background-repeat: initial initial;
+}
+
+
+#divHeaderText {
+    padding-top: 200px;
+    padding-bottom: 30px;
+    border-color: rgb(51, 51, 51);
+    text-align: left;
+}
+
+#decorative2 {
+    background-image: -moz-linear-gradient(bottom, #369656, #40ac62);
+    background-image: -o-linear-gradient(bottom, #369656, #40ac62);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#369656), to(#40ac62));
+    background-image: -webkit-linear-gradient(bottom, #369656, #40ac62);
+    background-image: linear-gradient(to bottom, #40ac62, #369656);
+    background-image: linear-gradient(bottom, #369656, #40ac62);
+}
+
+#contentOuterSeparator {
+    margin-top: 0px;
+    border-top-color: rgb(255, 255, 255);
+    border-top-width: 0px;
+    border-top-style: solid;
+    margin-bottom: 25px;
+    height: 0px;
+    background-color: transparent;
+}
+
+#footerOuterSeparator {
+    margin-top: 55px;
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-top-color: rgb(95, 95, 95);
+}
+
+#headerSeparator {
+    margin-top: 7px;
+    border-top-color: rgb(51, 51, 51);
+    border-top-width: 0px;
+    border-top-style: solid;
+}
+
+h3,
+.page-content h3 a {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    line-height: 45px;
+}
+
+h4,
+.page-content h4 a {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    line-height: 45px;
+}
+
+h5,
+.page-content h5 a {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    line-height: 45px;
+}
+
+h6,
+.page-content h6 a {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    line-height: 45px;
+}
+
+.line-separator {
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    border-top-color: rgb(234, 234, 234);
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+#headerSeparator2 {
+    margin-top: 45px;
+    margin-bottom: 18px;
+}
+
+.navbar .nav-pills>li>a {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 35px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: rgb(255, 255, 255);
+    border-bottom-style: none;
+}
+
+.navbar .ddmenu {
+    margin-top: -2px;
+    margin-bottom: 0px
+}
+
+.ddmenu.nav-pills li a {
+    font-family: Abel, sans-serif;
+    font-size: 17px;
+    text-shadow: none;
+    line-height: 15px;
+}
+
+#decorative2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1032
+}
+
+body {
+    padding-top: 85px
+}
+
+#decorative2 {
+    z-index: 100 !important
+}
