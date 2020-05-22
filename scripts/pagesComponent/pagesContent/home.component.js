@@ -17,7 +17,7 @@ export class HomeComponent extends BaseComponent{
                     <div class="span4 sidebar">
 
                         <div class="sidebox">
-                            <h3 class="sidebox-title">DEVCOD.PRO</h3>
+                            <h3 class="sidebox-title">webdevelopment.one</h3>
                             <p>This is my personal page = (all in one) => business card,
                              experimental site, training sandbox and portfolio
                              </p>

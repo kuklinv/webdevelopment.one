@@ -25,7 +25,7 @@ export class MainComponent extends BaseComponent {
     }
 
     _initNavigation() {
-        this._navigation = new NavigationComponent({
+        this._navigation = new NavigationComponent({                                     //TODO: unused?
             element: this._element.querySelector('.navigation'),
             navMenuSelect: (selected) => {
                 if (selected === 'home') {
@@ -47,13 +47,13 @@ export class MainComponent extends BaseComponent {
     }
 
     _initHeader() {
-        this._header = new HeaderComponent({
+        this._header = new HeaderComponent({                                                ////TODO: unused?
             element: this._element.querySelector('.myHeader')
         })
     }
 
     _initFooter() {
-        this._footer = new FooterComponent({
+        this._footer = new FooterComponent({                                                  ////TODO: unused?
             element: this._element.querySelector('.myFooter')
         })
     }

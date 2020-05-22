@@ -37,7 +37,7 @@ export class NavigationComponent extends BaseComponent{
                 <div class="row-fluid">
                     <div class="span12">
                         <div id="divLogo" class="pull-left">
-                            <a href="index.html" id="divSiteTitle">DEVELOPER PAGE</a><br/>
+                            <a href="index.html" id="divSiteTitle">DEVELOPER's PAGE</a><br/>
                             <a href="index.html" id="divTagLine">Your Welcome </a>
                         </div>
                         <div id="divMenuRight" class="pull-right">

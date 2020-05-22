@@ -18,7 +18,7 @@ export class BlogComponent extends BaseComponent{
                     <div class="span4 sidebar">
 
                         <div class="sidebox">
-                            <h3 class="sidebox-title">DEVCOD.PRO</h3>
+                            <h3 class="sidebox-title">webdevelopment.one</h3>
                             <p>Blog page </p>
                         </div>
                     </div>

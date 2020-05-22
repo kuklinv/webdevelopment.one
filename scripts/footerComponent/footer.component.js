@@ -11,7 +11,7 @@ export class FooterComponent extends BaseComponent {
             <div class="container-fluid">
         <div class="row-fluid">
             <div class="col">
-                <h3>DEVCOD.PRO</h3>
+                <h3>webdevelopment.one</h3>
             </div>
             <div class="col">
                 <ul id="contact-info">
